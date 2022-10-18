@@ -6,7 +6,12 @@ function App() {
 
   return (
     <div className="App">
-      <iframe width="415" height="696" frameBorder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BE09E1A7AD9639C1%21804&authkey=%21ACEDawntfCLKfIU&em=2&wdAllowInteractivity=False&ActiveCell='Filipe%20Agencia'!B12&Item='Filipe%20Agencia'!A2%3AE28&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&resen=false"></iframe>
+      <div className='Logo'>
+        <h1>Trinity</h1>
+      </div>
+      <div className='Frame'>
+        <iframe frameBorder="0" src="https://onedrive.live.com/embed?resid=BE09E1A7AD9639C1%21804&authkey=%21ACEDawntfCLKfIU&em=2&Item='Filipe%20Agencia'!B10%3AD22"></iframe>
+      </div>
     </div>
   )
 }
